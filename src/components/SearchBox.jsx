@@ -7,7 +7,7 @@ function SearchBox({ updateInfo }) {
   const [city, setCity] = useState("");
   const [error, setError] = useState(null); // State for error message
 
-  const GEO_API_URL = "http://api.openweathermap.org/geo/1.0/direct";
+  const GEO_API_URL = "https://api.openweathermap.org/geo/1.0/direct";
   const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
   const API_KEY = "29e6bf419e9c376e447a71e95c380a19";
 
